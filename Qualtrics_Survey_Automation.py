@@ -62,7 +62,7 @@ if goodinfluenceask == "y":
 
 
 driver = webdriver.Chrome(executable_path=r'D:\Zishan\Temp\chromedriver')
-driver.get("https://dauphinem1.eu.qualtrics.com/jfe/form/SV_8djB8ud9xA5gmvb")
+driver.get("thesureysiteurl.com") #I've removed the survey site url for privacy purposes
 first_result = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "QR~QID23")))
 
 
